@@ -49,6 +49,12 @@ export class AuthService {
     }
 
     const createdUser = await this.userModel.create(user);
-    return createdUser;
+
+    const token = await this.login(createdUser);
+
+    return {
+      ...createdUser.toObject(),
+      ...token,
+    };
   }
 }
