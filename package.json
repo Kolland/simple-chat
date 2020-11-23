@@ -28,6 +28,7 @@
     "@nestjs/passport": "^7.1.0",
     "@nestjs/platform-express": "^7.5.1",
     "@nestjs/platform-socket.io": "^7.5.1",
+    "@nestjs/platform-ws": "^7.5.4",
     "@nestjs/websockets": "^7.5.1",
     "@types/nanoid": "^2.1.0",
     "@types/ws": "^7.4.0",
